@@ -1,0 +1,8 @@
+[1122/165801.548:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1122/165801.556:ERROR:exception_snapshot_win.cc(98)] thread ID 220 not found in process
+[1124/162130.400:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0126/124830.629:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0921/182616.258:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[1221/143123.532:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[1221/144123.753:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0303/210739.208:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

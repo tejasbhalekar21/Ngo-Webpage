@@ -1,0 +1,648 @@
+        *{
+            box-sizing: border-box;
+        }
+
+        nav{
+            width: 100%;
+            height: 60px;
+            background-color:#C0C0C0	;
+            line-height:50px; 
+        }
+        nav ul{
+            float: right;
+            margin-right: 20px
+            ;
+        }
+        nav ul li{
+            list-style-type:none;
+            display: inline-block;
+
+        }
+
+        nav ul li:hover{
+            background-color:black;
+            height: 60px;
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            color:white;
+            padding: 30px;
+        }
+        *{
+            margin: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+        .image{
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            /* margin-bottom: 20px; */
+
+        }
+        /* slider*/
+
+        .slider_last{
+            display: flex;
+            position: relative;
+            left: 20;
+            width: 100%;
+        }
+        .image>.slider_last{
+            animation-name: autoplay;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+
+        }
+        .slide>img{
+            width: 100%;
+            height: 700px;
+        }
+        .slide{
+            min-width: 100%;
+        }
+        /* .rel{
+            position: absolute;
+            top: 25%;
+            left:50%;
+        } */
+        @keyframes autoplay{
+            0%{
+                left:0%
+            }
+            25%{
+                left:-100%
+            }
+            50%{
+                left:-200%
+            
+            }
+            100%{
+                left:-300%
+            }
+        }
+            /* about us*/
+
+        .Abouts{
+		    
+            display: flex;
+            margin-top:30px;
+            overflow: hidden;
+           
+            background-color:whitesmoke ;
+            padding-right: 0px;
+			text-align:justify;
+
+        }
+       
+        .Abouts>img{
+            margin-top: 30px;
+            margin-left: 50px;
+			margin-right:30px;
+
+        }
+		.paragraph{
+			margin-top:30px;
+			margin-left: 30px;
+		}
+			
+     
+       
+        /* about home*/
+		
+		.para{
+			text-align: justify;
+            font-family:Bahnschrift SemiBold;
+            line-height: 1.7;
+            padding-bottom: 30px;
+            
+        
+			
+		}
+        .About>img{
+            margin-top: 30px;
+            margin-left: 80px;
+            padding-bottom: 30px;
+          
+
+        }
+		
+         /*footer */
+
+        footer{
+            padding-top: 30px;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            background-color:black; width:100%;
+            color: cadetblue;
+            font-family: Arial;
+            letter-spacing: 1px;
+            
+        }
+        /*gallery*/
+
+        .gallery{
+            display: flex;
+            margin-top: 60px;
+            overflow: hidden;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+            
+        }
+        .gallery>img{
+            height: 250px;
+            width:400px;
+            padding:15px;
+            transition: transform 1s;
+            margin: 10px;
+            border: 2px solid grey;
+            border-block-start-width: 20px;
+            margin-bottom: 60px;
+            
+            
+        }
+        .gallery>img:hover{
+            transform: scale(1.2);
+        }
+
+
+    /* about us*/
+	.paragraph{
+			text-align: justify;
+            font-family:Bahnschrift SemiBold;
+            line-height: 1.7;
+	}
+
+    .About{
+        font-family: sans-serif;
+        font-weight: 600;
+        
+        line-height: 1.4;
+    }
+    .About>img{
+        margin-top: 30px;
+        margin-left: 80px;
+        height: 300px;
+		
+		
+        }
+    
+        
+        
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .main{
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .cards{
+            
+            display: inline-block;
+            background-color:whitesmoke;
+            border-radius: 5px;
+            margin: 10px;
+            
+            
+
+    
+        }
+        .images img{
+            width: 300px;
+            padding-right:20px;
+            padding-left: 20px;
+            height:300px;
+            
+        }
+        .title{
+            text-align: center;
+            font-size: 20;
+            
+        }
+       
+           
+    
+     
+        .des{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: justify;
+            font-family: Bahnschrift SemiBold;
+            padding-left: 20px;
+            padding-right: 20px;
+
+        }
+        .title h1{
+            font-size: 25px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color:white;
+        }
+       
+       
+        /* MAP*/
+        .loc{
+
+        }
+            
+        
+       
+            /*contact us*/
+            .box{
+                text-align: center;
+            }
+
+        
+           body{
+               margin: o;
+               padding: 0;
+               text-align: center;
+               background: url(101.png);
+               background-size:cover ;
+               }
+        .title{
+            margin-top:100px ;
+            color:#fff;
+        }
+        .title h1{
+            font-size: 32px;
+            line-height: 10px;
+        }
+        .title h2{
+            font-size: 25px;
+            padding-top: 25px;
+            color:black;
+        }
+        form{
+            margin-top: 50px;
+        }
+        .form-control{
+            width: 600px;
+            background: transparent;
+            border:none;
+            outline: none;
+            border-bottom: 1px solid grey;
+            color:black;
+            font-size: 18px;
+            margin-bottom: 16px;
+        
+        }
+        input{
+            height: 45px;
+        }
+        form .submit{
+            background-color: #ff5722;
+            border-color: transparent;
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 2px;
+            height: 50px;
+            margin-top: 20px;
+            transition: 0.4s ease;
+        }
+        form .submit:hover{
+            background-color: #f44336;
+            cursor: pointer;
+        }
+        h1{
+            padding: 3%;
+            widows: 100%;
+            color: white;
+            background-color:#696969;
+            margin-bottom: 2%;
+            margin-top: 2%;
+        }
+        /*services*/
+     
+        .ser p{
+            font-family: Bahnschrift SemiBold; 
+            text-align: justify; 
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom:20px;
+            padding-top: 20px;
+            
+            
+        }
+        .s h2{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+      /*  @media only screen and (max-width:767px){
+            .para{
+                width: 100%;
+        
+            }
+            .first{
+                width: 100%;
+                margin: 0;
+            }
+        }
+        @media only screen and (max-width:962px) {
+            .para{
+        width: 100%;
+      
+            }
+            .first{
+                width: 100%;
+            }
+        }
+            .Abouts>img{
+                display:block;
+            }
+            nav{
+                display:block;
+            }
+            .Abouts{
+              display: block;
+              justify-content: space-around;
+            }
+            .foot{
+                margin-top: 50%;
+            }
+
+        }
+        @media only screen (min-width:300px) and (max-width:767px){
+            footer{
+                margin-bottom:0px;
+            }
+        } 
+		*/    
+		
+		
+		
+		
+            /*footer*/	
+.footer{
+		padding-top:10px;
+}
+			
+		html{
+	background-color: #eaf0f2;
+}
+ 
+body{
+	font:16px/1.6 Arial,  sans-serif;
+}
+ 
+header{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom:190px;
+}
+ 
+header h1{
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+	padding-bottom: 16px;
+}
+ 
+header h2{
+	color: #F05283;
+}
+ 
+header span{
+	color: #3F71EA;
+}
+ 
+ 
+/* The footer is fixed to the bottom of the page */
+ 
+footer{
+	position: fixed;
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+	width: 30%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+ 
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+ 
+ /*drop down list*/
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  float: right;
+  margin-right: 20px;
+  
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  
+  padding: 14px 16px;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  background-color: #C0C0C0 ;
+  color: white;
+}
+
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Registration here */
+
+.Register_here{
+    background-color: rosybrown;
+}
